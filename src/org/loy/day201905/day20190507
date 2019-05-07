@@ -33,3 +33,10 @@
   （3）如果是 impossible where 说明没使用where条件
   （4）如果是using filesort 或者Using temporary的话会很吃力 ,一般在order by的时候回引起
   
+3、索引的几种分类
+  （1）主键
+  （2）唯一键
+  （3）联合索引
+  （4）索引
+
+  
