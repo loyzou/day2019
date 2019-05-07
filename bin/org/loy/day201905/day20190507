@@ -41,5 +41,15 @@
   
 4、SQL语句优化
   （1）尽量不要在where中使用 != 或者 <>等操作符否则将引擎放弃使用索引而进行全表扫描
+  
+三、JVM
+1、jvm的几种类加载器
+  （1）Bootstrap加载器：负责jre/lib/rt.jar下所有的class类加载
+  （2）Extension ClassLoader: 负责加载jre/lib/*.jar
+  （3）App ClassLoader：负责classpath下的所有class文件加载
+  
+  工作过程：AppClassLoader优先请求ExtClassLoader加载，而ExtClassLoader会优先请求BootStrap加载，
+                     如果BootStrap如果加载失败，则有Ext加载，如果Ext失败，则由AppClassLoader加载
+
 
   
