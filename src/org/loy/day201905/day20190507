@@ -1,0 +1,35 @@
+一、Netty服务端
+1、继承类 SimpleChannelInboundHandler
+2、存在的方法
+   （1）channelActive 客户端连接的时候调用
+   （2）channelInActive 客户端断开连接的时候调用
+   （3）channelRead 客户端发送消息的时候调用 
+             参数：ChannelHandlerContext ctx 处理通道对象
+          Object msg 接收的消息
+   （4）closeCtx 关闭连接
+   （5）messageReceived 需要编解码时使用
+   （6）userEventTrrigered 状态触发监听
+   （7）exceptionCaught 异常
+
+3、如何启动
+   （1）EventLoopGroup 工作组
+     EventLoopGroup 
+   （2） ServerBootstrap 类
+      1）group 设置group
+      2)channel 设置 channel NioServerSocketChannel
+      3)childHandler 设置处理类
+  （3）ChannelFuture类
+     1） 初始化   mChannelFuture = mServerBootstrap.bind(localIP,port).sync();
+     2） 启动  Channel channle = mChannelFuture.channel();
+     
+     
+二、mysql
+1、 解释索引type
+   （1）const > eq_ref > ref > range > index >all
+   
+2、Extra分析
+  （1）如果是only index 说明只使用索引 这种查询比较快
+  （2）如果是 where used 说明使用了where 条件
+  （3）如果是 impossible where 说明没使用where条件
+  （4）如果是using filesort 或者Using temporary的话会很吃力 ,一般在order by的时候回引起
+  
