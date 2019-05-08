@@ -50,6 +50,9 @@
   
   工作过程：AppClassLoader优先请求ExtClassLoader加载，而ExtClassLoader会优先请求BootStrap加载，
                      如果BootStrap如果加载失败，则有Ext加载，如果Ext失败，则由AppClassLoader加载
-
+2、JVM的几个命令
+   （1）  jmap  -histo:live pid 这个命令会立即执行fullgc，用于生成heap dump文件
+  (2) jstat 可以监控jvm的一些运行时状态，包括运行中的类加载，内存，垃圾回收等运行时信息。
+  (3) jstack 生成线程快照，查询线程长时间停顿的原因。
 
   
