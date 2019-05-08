@@ -1,0 +1,23 @@
+一、AOP
+1.AOP的底层实现
+  （1）动态代理
+    1）JDK动态代理
+    2）CGLIB动态代理
+    
+2.AOP相关的概念
+  （1）Aspect     切面 交给spring容器处理
+  （2）Join point 连接点 （表记录）
+  （3）PointCut   切点（连接点的集合，表）
+  （4）Advice     通知
+  
+3.实现AOP功能
+  （1）@AspectJ support
+     1) 增加配置类 @configuration 
+                     使用@EnableAspectJAutoProxy注解
+     2）使用xml方式
+     
+  （2）定义个切面类
+     1）使用@AspectJ注解
+     2）使用@Pointcut
+     3）通知：前置通知，后置通知
+       @Before @After
