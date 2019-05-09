@@ -30,19 +30,20 @@ public class CallableDemo {
 		Callable<String> cInfoA = new Callable<String>() {
 			@Override
 			public String call() throws Exception {
-				return "loy callable";
+				return "loy callable by threadpool";
 			}
 		};
 		
 		FutureTask<String> futureTask = new FutureTask<>(cInfoA);
 		
 		ExecutorService executeTask = Executors.newFixedThreadPool(10);
-		executeTask.submit(cInfoA);
+		executeTask.submit(futureTask);
 		System.out.println(futureTask.get());
 	}
 	
 	
 	public static void main(String[] args) throws Exception {
 		callableByThread();
+		callableByThreadPool();
 	}
 }
