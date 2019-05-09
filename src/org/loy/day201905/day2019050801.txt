@@ -1,0 +1,37 @@
+一、并发安全
+1.如何在高并发下产生唯一的Id
+  （1）使用synchronized。
+  （2）使用并发包下面的lock,但一定要在finally中释放。
+  
+2.分布式锁
+  （1）数据库 效率问题
+  （2）Redis 可能出现死锁问题
+  （3）zookeeper 分布式锁
+  
+二、如果A服务调用B服务多个方法，如何达到最优
+1、使用callable，callable与runnale的区别在于，有返回值，因为请求需要返回值，则需要使用callable，重写call（）方法
+2、使用FutureTask，构造方法中传入callable对象
+3、使用线程池，submit 或者使用线程构造启动
+  taskExcute.submit(futureTask);
+4、提交后使用callable返回的对象进行get（）获取。
+
+  Callable aInfo = new Callable(JSONObject){
+  		@override
+  		public JSONObject call() throws Exception{
+  			String re = // 调用
+  			return JSONObject.parseObject(re);
+  		}
+  }
+  
+  FutureTask fTask1 = new FutureTask(aInfo);
+
+
+三、Executors中提供的几种线程池
+1、newFixedThreadPool  创建一定数量的线程池，超过的线程，在队列中进行等待。
+2、newScheduledThreadPool  创建一个定长度的线程，可以进行周期性任务处理。
+3、newSingleThreadExecutor  创建一个单线程的线程池，只会有唯一的一个线程处理，保证FIFO处理原则。
+4、newCachedThreadPool 创建一个可缓存的线程池，如果线程池长度超过线程需要，可以灵活的进行回收，若无可回收，则会创建新线程。
+
+四、ThreadPoolExecutor
+1、ThreadPoolExecutor 是真正创建线程池的类。上面几种线程池，最终都是通过该类的构造方式进行创建。
+  
