@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T08:11:17.029Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="JIa2ogYW1V-rmy5nP3uS" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T08:18:37.659Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="RKHuYUpK14n8kkjPGSWS" version="15.8.2" type="github">
   <diagram id="tm56WMw-zvt5S6-82xMY" name="Page-1">
     <mxGraphModel dx="1353" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ctpr0SHcvEs6AHWeeGjL-21" value="&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;客户订单列表/sale/customer/listPage&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;align=left;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="Ctpr0SHcvEs6AHWeeGjL-21" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;客户订单列表/sale/customer/listPage&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;align=left;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="340" y="270" width="350" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ctpr0SHcvEs6AHWeeGjL-22" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ctpr0SHcvEs6AHWeeGjL-20" target="Ctpr0SHcvEs6AHWeeGjL-21">
@@ -88,7 +88,7 @@
           <mxGeometry x="870" y="310" width="360" height="529.5" as="geometry" />
         </mxCell>
         <mxCell id="Ctpr0SHcvEs6AHWeeGjL-43" value="获取是否支持购物卡集合 将erp-ms-app服务的batchByShoppeCode调整为shop-ms-app的batchByShoppeCode" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;fillColor=#CCFFFF;align=left;" vertex="1" parent="1">
-          <mxGeometry x="260" y="160" width="540" height="60" as="geometry" />
+          <mxGeometry x="340" y="170" width="890" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
