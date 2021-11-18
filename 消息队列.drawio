@@ -1,1 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T11:03:50.303Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.8.2" etag="QZvRyb156e7AZRDHcfCL" type="github"><diagram id="l6AKEhezCEsRlvUW0cOw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-18T11:27:42.333Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="h1KwmwLeY5UE8DC6Uh0o" version="15.8.2" type="github">
+  <diagram id="l6AKEhezCEsRlvUW0cOw" name="Page-1">
+    <mxGraphModel dx="782" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-1" value="消息中间件" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-2" target="A2EM_KoO_MwLIwAZCq3L-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-2" target="A2EM_KoO_MwLIwAZCq3L-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-2" target="A2EM_KoO_MwLIwAZCq3L-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-2" value="Kafka" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="300" y="214" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-8" target="A2EM_KoO_MwLIwAZCq3L-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-8" target="A2EM_KoO_MwLIwAZCq3L-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-8" value="server.properties" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-10" value="用于配置kafka的启动信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-13" target="A2EM_KoO_MwLIwAZCq3L-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-13" value="集群配置" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-15" value="broker.id = 1&lt;br&gt;broker.id = 2&lt;br&gt;broker.id = 3" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="630" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-17" target="A2EM_KoO_MwLIwAZCq3L-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-17" value="zookeeper" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="460" y="214" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-19" value="早期使用zookeeper来管理集群" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="630" y="214" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-23" target="A2EM_KoO_MwLIwAZCq3L-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-23" value="移除zookeeper" style="whiteSpace=wrap;html=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="280" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-25" value="由于扩容，迁移等都需要与zookeeper交互，导致性能问题，因此移除zookeeper，改用kafka自己来管理集群" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="480" y="376" width="190" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-27" target="A2EM_KoO_MwLIwAZCq3L-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-27" target="A2EM_KoO_MwLIwAZCq3L-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="215" y="580" />
+              <mxPoint x="215" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-27" value="Kafka" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-28" target="A2EM_KoO_MwLIwAZCq3L-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-28" value="启动" style="whiteSpace=wrap;html=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-30" value="bin/kafka-server-start.sh config/server.properties" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="490" y="540" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-33" value="Kafka" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="234" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A2EM_KoO_MwLIwAZCq3L-34" target="A2EM_KoO_MwLIwAZCq3L-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-34" value="关闭" style="whiteSpace=wrap;html=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="280" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EM_KoO_MwLIwAZCq3L-37" value="bin/kafka-server-stop.sh&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="490" y="660" width="230" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
